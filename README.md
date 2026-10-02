@@ -1,5 +1,4 @@
 
- Click me :https://github.com/ashik477/E-commerce
 
 # React + Vite
 
