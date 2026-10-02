@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Potato Chips 52g, American Cream.",
+    "name": "Elegant style and comfort for every occasion.",
     "categoryId": 1,
     "categoryName": "Dresses",
     "price": 664.0,
@@ -26,7 +26,7 @@
   },
   {
     "id": 2,
-    "name": "Stylish Men’s Casual Shirt",
+    "name": "Stay stylish and comfortable with this trendy men’s casual shirt",
     "categoryId": 2,
     "categoryName": "Clothes",
     "price": 899.0,
@@ -98,7 +98,7 @@
   },
   {
     "id": 5,
-    "name": "Trendy Sunglasses for Men & Women",
+    "name": "Glow naturally with our premium cosmetics",
     "categoryId": 5,
     "categoryName": "Cosmetics",
     "price": 499.0,
@@ -120,7 +120,7 @@
   },
   {
     "id": 6,
-    "name": "Makeup Kit Combo Set",
+    "name": "Glow naturally with our premium cosmetics",
     "categoryId": 6,
     "categoryName": "Cosmetics",
     "price": 1249.0,
@@ -166,7 +166,7 @@
   },
   {
     "id": 8,
-    "name": "Men’s Denim Jeans",
+    "name": "Trendy clothes made for comfort and style",
     "categoryId": 2,
     "categoryName": "Clothes",
     "price": 1299.0,
@@ -191,7 +191,7 @@
   },
   {
     "id": 9,
-    "name": "Luxury Gold Watch",
+    "name": "Stay stylish and comfortable with this trendy men’s casual ",
     "categoryId": 3,
     "categoryName": "Dresses",
     "price": 3299.0,
@@ -213,7 +213,7 @@
   },
   {
     "id": 10,
-    "name": "Women’s Floral Maxi Dress",
+    "name": "Trendy clothes made for comfort and style",
     "categoryId": 4,
     "categoryName": "Cosmetice",
     "price": 1799.0,
@@ -238,7 +238,7 @@
   },
   {
     "id": 11,
-    "name": "Stylish Round Sunglasses",
+    "name": "Stay stylish and comfortable with this trendy men’s casual",
     "categoryId": 5,
     "categoryName": "Clothes",
     "price": 599.0,

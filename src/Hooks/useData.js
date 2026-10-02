@@ -4,13 +4,13 @@ const useData = () => {
   const [categorys, setCategory] = useState([]);
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("category.json")
+    fetch("/category.json")
       .then((res) => res.json())
       .then((data) => setCategory(data));
   }, []);
 
   useEffect(() => {
-    fetch("products.json")
+    fetch("/products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

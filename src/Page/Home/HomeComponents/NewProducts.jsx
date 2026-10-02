@@ -14,9 +14,9 @@ const NewProducts = () => {
           ></SectionHeading>
         </div>
         <div>
-            <div className="flex gap-4 flex-wrap mt-12 justify-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4  mt-12 justify-center">
                 {
-                    products.slice(-4).map(p => <ProductCard product={p}></ProductCard>)
+                    products.slice(-5).map(p => <ProductCard product={p}></ProductCard>)
                 }
             </div>
         </div>

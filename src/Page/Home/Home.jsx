@@ -6,7 +6,8 @@ import NewProducts from "./HomeComponents/NewProducts";
 import PopularProducts from "./HomeComponents/PopularProducts/PopularProducts";
 import Collection from "./HomeComponents/Collection";
 import Support from "./HomeComponents/Support";
-import Footer from "../../Components/Sharedcomponents/Footer/Footer";
+// <Footer></Footer><ShopNow></ShopNow>import Footer from "../../Components/Sharedcomponents/Footer/Footer";
+    
 
 const Home = () => {
     return (
@@ -17,9 +18,10 @@ const Home = () => {
             <LatestExclusive></LatestExclusive>
             <NewProducts></NewProducts>      
             <Collection></Collection>
-            <Support></Support>
-            <Footer></Footer>
+            <Support></Support>  
+        
         </div>
+        
     );
 };
 

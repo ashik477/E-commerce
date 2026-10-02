@@ -9,6 +9,7 @@ const Header = () => {
             <MinHeader></MinHeader>
             <Navbar></Navbar>
         </div>
+        
     );
 };
 export default Header ;

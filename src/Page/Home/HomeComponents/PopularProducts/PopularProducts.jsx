@@ -35,7 +35,8 @@ const PopularProducts = () => {
                     {filterProduct
                         .sort((a, b) => b.rating - a.rating)
                         .slice(0, 10)
-                        .map(product => <ProductCard key={product.id} product={product}></ProductCard>)}
+                        .map(product => <ProductCard key={product.id} product={product}></ProductCard>)
+                    }
                 </div>
             </div>
 

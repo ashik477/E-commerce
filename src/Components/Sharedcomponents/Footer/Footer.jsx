@@ -1,3 +1,4 @@
+
 import {
   FaFacebookF,
   FaTwitter,
@@ -8,7 +9,6 @@ import {
   FaCcPaypal,
   FaCcAmex,
 } from "react-icons/fa";
-
 import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
@@ -17,7 +17,7 @@ const Footer = () => {
     "Dairy & Milk",
     "Snack & Spice",
     "Fast Food",
-    "juice  & Drinks",
+    "Juice & Drinks",
     "Bakery",
     "Seafood",
   ];
@@ -31,16 +31,16 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-white border-t border-gray-200 mt-12">
+    <footer className="bg-white border-t border-gray-200  mt-12">
       {/* Top Section */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 grid gid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 text-center sm:text-left text-gray-700">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6 lg:gap-8 text-center sm:text-left text-gray-700">
         {/* Logo & Description */}
         <div className="lg:col-span-2">
           <div className="flex items-center justify-center sm:justify-start gap-3 mb-3">
             <div className="w-10 h-10 rounded-md bg-green-600 flex items-center justify-center text-white font-bold text-lg">
               G
             </div>
-            <h2 className="text-2xl font-semibold text-gray-800">AshikifY</h2>
+            <h2 className="text-2xl font-semibold text-gray-800">AshikifY </h2>
           </div>
           <p className="text-sm mb-4">
             Ashikify is the biggest market of grocery products.
@@ -49,14 +49,14 @@ const Footer = () => {
           </p>
 
           {/* App Store Buttons (text version, no image) */}
-
           <div className="flex gap-3 justify-center sm:justify-start">
-            <button className="flex items-center gap-2 px-3 py-3 border rounded-md text-sm hover:shadaw transition">
-              <svg className="w-5 h-5" fill="currentColor">
+            <button className="flex items-center gap-2 px-3 py-2 border rounded-md text-sm hover:shadow transition">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M3 3h18v18H3z" />
               </svg>
               <span className="font-medium">Google Play</span>
             </button>
+
             <button className="flex items-center gap-2 px-3 py-2 border rounded-md text-sm hover:shadow transition">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <circle cx="12" cy="12" r="10" />
@@ -96,13 +96,14 @@ const Footer = () => {
             </li>
             <li className="flex items-center justify-center sm:justify-start gap-2">
               <AiOutlinePhone className="text-green-600 w-5 h-5" />
-              <span>+00 68258157</span>
+              <span>+00 968258157</span>
             </li>
             <li className="flex items-center justify-center sm:justify-start gap-2">
               <AiOutlineMail className="text-green-600 w-5 h-5" />
               <span>mrashik@email.com</span>
             </li>
           </ul>
+
           <div className="flex gap-3 mt-4 justify-center sm:justify-start text-gray-600 text-lg">
             <FaFacebookF className="cursor-pointer hover:text-green-600" />
             <FaTwitter className="cursor-pointer hover:text-green-600" />

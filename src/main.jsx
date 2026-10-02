@@ -9,6 +9,7 @@ import Blog from './Page/Blog/Blog';
 import Contact from './Page/Contact/Contact';
 import About from './Page/About/About';
 import Home from './Page/Home/Home';
+import SingleProductPage from './Components/Sharedcomponents/SingleProductPage';
 
 
 const router = createBrowserRouter([
@@ -21,11 +22,12 @@ const router = createBrowserRouter([
       {path: "/about", element: <About></About>},
       {path: "/blog", element: <Blog></Blog>},
       {path: "/contact", element: <Contact></Contact>},
+      {path: "/shop/:id", element: <SingleProductPage></SingleProductPage>},
       
 
     ],
+    
   },
- 
 ]);
 
 const root = document.getElementById("root");
