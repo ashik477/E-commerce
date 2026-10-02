@@ -12,7 +12,7 @@ const ContactElement = () => {
                 </div>
 
                 <div className='flex flex-wrap justify-center gap-8 '>
-                    <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
+                    <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4  px-8 py-5 rounded-md'>
                         <div className='flex flex-col items-center justify-center'>
 
                             <div className='text-3xl border p-4 rounded-md my-3 border-gray-200'>
@@ -23,7 +23,7 @@ const ContactElement = () => {
                             <h3>Phone: 01753924093</h3>
                         </div>
                     </div>
-                    <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
+                    <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4  px-8 py-5 rounded-md'>
                         <div className='flex flex-col items-center justify-center'>
 
                             <div className='text-3xl border p-4 rounded-md my-3 border-gray-200'>
@@ -34,7 +34,7 @@ const ContactElement = () => {
                             <h3>Phone: 01753924093</h3>
                         </div>
                     </div>
-                    <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex-grow px-8 py-5 rounded-md'>
+                    <div className='border border-gray-200 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-8 py-5 rounded-md'>
                         <div className='flex flex-col items-center justify-center'>
 
                             <div className='text-3xl border p-4 rounded-md my-3 border-gray-200'>
